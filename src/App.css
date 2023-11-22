@@ -1,0 +1,128 @@
+@import url(https://fonts.googleapis.com/css?family=Acme:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,300italic,700);
+
+/*********************************************
+ * GLOBAL STYLES
+ *********************************************/
+ :root {
+	--r-background-color: #e1ddd6;
+	--r-main-font: Roboto, Helvetica, sans-serif;
+	--r-main-font-size: 40px;
+	--r-main-color: #4b4945;
+	--r-heading-font: Acme, Helvetica, sans-serif;
+	--r-heading-margin: 0 0 20px 0;
+	--r-heading-size: 2.5em;
+	--r-heading-color: #344a86;
+	--r-heading-line-height: 1.2;
+	--r-heading-letter-spacing: normal;
+	--r-heading-text-transform: none;
+	--r-heading-text-shadow: #fff 2px 2px 1px;
+	--r-heading-font-weight: 700;
+	--r-strong-color: #c2964b;
+	--r-link-text-decoration: none;
+	--r-link-color: #407794;
+	--r-link-color-dark: #a3a3a3;
+	--r-link-color-hover: #c2964b;
+}
+
+.App {
+	background: var(--r-background-color);
+	font-family: var(--r-main-font);
+	font-size: var(--r-main-font-size);
+	font-weight: normal;
+	color: var(--r-main-color);
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	justify-content: center;
+	padding: 0 30px;
+	text-align: center;
+}
+
+.icons-social a {
+	color: var(--r-link-color);
+}
+
+.icons-social a:hover {
+	color: var(--r-link-color-hover);
+}
+
+/** do we need this? **/
+.icons-social svg path{
+	fill: #344a86;
+}
+
+.icons-social i {
+	font-size: 2em;
+}
+
+a:link {
+	color: var(--r-link-color);
+	text-decoration: var(--r-link-text-decoration);
+	font-weight: bold;
+}
+
+a:hover {
+	color: var(--r-link-color-hover);
+	text-decoration: var(--r-link-text-decoration);
+	font-weight: bold;
+}
+
+a:visited {
+	color: var(--r-link-color-dark);
+	text-decoration: var(--r-link-text-decoration);
+	font-weight: bold;
+}
+
+a:active {
+	color: var(--r-link-color-hover);
+	text-decoration: var(--r-link-text-decoration);
+	font-weight: bold;
+}
+
+.intro {
+	margin: var(--r-heading-margin);
+	color: var(--r-heading-color);
+	font-family: var(--r-heading-font);
+	font-size: var(--r-heading-size);
+	font-weight: var(--r-heading-font-weight);
+	line-height: var(--r-heading-line-height);
+	letter-spacing: var(--r-heading-letter-spacing);
+	text-transform: var(--r-heading-text-transform);
+	text-shadow: var(--r-heading-text-shadow);
+	word-wrap: break-word;
+}
+
+.tagline {
+	font-size: var(--r-main-font-size);
+	margin: 1.5rem 0;
+}
+
+.build {
+	font-size: 0.5rem;
+	margin-top: 2.0rem;
+	margin-bottom: 0;
+	font-weight: 100;
+}
+
+.latest {
+	font-size: 0.5rem;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-weight: 100;
+}
+
+.host {
+	font-size: 0.5rem;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-weight: 100;
+}
+
+.icons-social i {
+	padding: 10px;
+}
+
+.icons-social a {
+  text-decoration: none;
+}
